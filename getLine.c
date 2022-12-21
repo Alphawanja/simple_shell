@@ -73,7 +73,6 @@ ssize_t get_input(info_t *info)
 				break;
 			j++;
 		}
-		
 		i = j + 1; /* increment past nulled ';'' */
 		if (i >= len) /* reached end of buffer? */
 		{
